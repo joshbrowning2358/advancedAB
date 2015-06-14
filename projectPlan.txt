@@ -1,0 +1,26 @@
+Private Github repository
+
+Deliverables:
+- R Package
+    1. Function for simulating AB test
+        - daily impressions
+        - click rate
+        - estimated lift
+        - days
+        - tests per day
+        - MAB traffic adjustment
+        - daily variability
+        - A, B, C, ...
+    2. Function comparing two test strategies
+        - Number of simulations
+        - Output: power, days to decide, false positive rate
+    3. Function generating shiny code
+    4. Vignette
+- Paper detailing the 3 new strategies:
+    1. Sequential Testing
+        a. Value only when power is high and decisions want to be made quickly, otherwise traditional is best.
+    2. Adjusting for daily variability
+    3. Multi-armed bandit
+- Table providing best approach, via many simulations
+- 40 consulting hours to answer questions/help with implementation
+
